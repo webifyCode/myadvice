@@ -1,0 +1,10 @@
+@media (min-width: 1200px) {
+    .advice{
+        
+        width: 620px;
+    }
+
+    .randomize {
+        left: 41.5%;
+    }
+}
