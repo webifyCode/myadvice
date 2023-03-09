@@ -40,6 +40,7 @@ main {
   font-size: 28px;
   font-weight: 800;
   line-height: 1.5em;
+  min-height: min-content;
 }
 
 .randomize {
