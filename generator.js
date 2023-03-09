@@ -1,28 +1,16 @@
 $(() => {
 
 $.ajax({
-      type: 'GET',
-      url: 'https://api.adviceslip.com/advice',
-      success: (data) => {
-
-        var dataJson = JSON.parse(data);
-
-        var dataContent = dataJson.slip;
-
-        $('.advText').text(dataContent.advice);
-          
-
-        $('#num').text("Advice #" + dataContent.id);
-          
-
-      },
-
-      fail: () => {
-        $('.advText').empty().text("Error retrieving advice");
-        
-      }
-
-    });
+    type: 'GET',
+    url: 'https://api.adviceslip.com/advice',
+    success: (data) => {
+      var dataJson = JSON.parse(data);
+      var dataContent = dataJson.slip;
+      
+      $('.advText').text(dataContent.advice);
+      $('#num').text(`Advice #${dataContent.id}`);
+    }
+  });
 
   $('.randomize').on('click', () => {
 
