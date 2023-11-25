@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repo](https://github.com/5erious5am/myadvice)
-- Live Site URL: [Live site](https://5erious5am.github.io/myadvice)
+- Solution URL: [Github repo](https://github.com/webifyCode/myadvice)
+- Live Site URL: [Live site](https://webifyCode.github.io/myadvice)
 
 ## My process
 
@@ -48,7 +48,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Samuel Akinode](https://www.webifywebservices.com)
 - Frontend Mentor - [@5erious5am](https://www.frontendmentor.io/profile/5erious5am)
-- Github - [@5erious5am](https://www.github.com/5erious5am)
+- Github - [@webifyCode](https://www.github.com/webifyCode)
 
